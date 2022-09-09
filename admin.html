@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="fontawesome/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Account - REVV Speedpart</title>
+    <link rel="icon" href="img/favico.ico">
+  </head>
+  <body>
+    
+    <nav class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0 shadow">
+      <a class="navbar-brand col-md-3 col-lg-2 mr-0 px-3" href="index.html"><img src="img/logoblack.png" width="120px"></a>
+      <button class="navbar-toggler position-absolute d-md-none collapsed" type="button" data-toggle="collapse" data-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button><ul class="navbar-nav px-3">
+        <li class="nav-item text-nowrap">
+          <a class="nav-link" href="#">Sign out</a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="row no-gutters">
+      <div class="col-md-2 pl-4 pr-4 pt-3 bg-dark">
+        <ul class="nav flex-column">
+          <li class="nav-item">
+            <a class="nav-link active text-white" href="#"><i class="far fa-user-circle mr-2"></i>Dashboard</a><hr class="bg-secondary">
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#"><i class="fas fa-book mr-2"></i>Report</a><hr class="bg-secondary">
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#"><i class="fas fa-link mr-2"></i>Integrations</a><hr class="bg-secondary">
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-10">
+        <div class="card">
+          <h5 class="card-header">Dashboard</h5>
+          <div class="card-body">
+            <div class="btn-toolbar mb-2 mb-md-0">
+              <div class="btn-group mr-2">
+                <button type="button" class="btn btn-sm btn-outline-secondary">Share</button>
+                <button type="button" class="btn btn-sm btn-outline-secondary">Export</button>
+              </div>
+              <button type="button" class="btn btn-sm btn-outline-secondary dropdown-toggle">
+                <span data-feather="calendar"></span>
+                This week
+              </button>
+            </div>
+          </div>
+            <canvas class="my-3 w-100" id="myChart" width="900" height="380"></canvas>
+        </div>
+      </div>
+    </div>
+
+  <footer class="container">
+    <p class="float-right"><a href="#">Back to top</a></p>
+    <p>&copy; 2020 REVV Speedpart</p>
+  </footer>
+    
+    <script src="bootstrap/js/jquery.min.js"></script>
+    <script src="bootstrap/js/popper.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="bootstrap/js/feather.min.js"></script>
+    <script src="bootstrap/js/Chart.min.js"></script>
+    <script src="bootstrap/js/dashboard.js"></script>
+  </body>
+</html>
